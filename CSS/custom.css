@@ -98,24 +98,26 @@
     text-align: center;
 }
 .contact input, textarea{
-    min-width: 50%;
-    min-height:50%;
+    width: 100%;
+    height:100%;
     border: 5px;
     border-radius:15px;
+    justify-content: center;
 }
 .contact form{
     color: #eee;
     background-color:#114adc;
     display: flex;
     flex-direction: column;
+    width: 100%;
     border: 10px;
     border-radius: 15px;  
+    justify-content: center;
+    align-content: center;
 }
 
 .footer{
     height: fit-content;
     background-color: black;
     color: #eee;
-  
-    
 }
