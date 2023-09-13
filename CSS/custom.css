@@ -89,13 +89,18 @@
     text-align: center;
 }
 
-.portfolio{
-    min-height: 400px;
-    background-color: #114adc;
-    border: #114adc 2px solid;
+.portfolio h1{
+   font-size: larger;
+   color: #114adc;
 }
 
-
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+    min-width: 100%;
+    min-height:100%;
+}
 .contact form{
     color: #eee;
     background-color:#114adc;
